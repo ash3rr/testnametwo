@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ttest-name"
+  description: "test-desc"
+  annotations:
+    github.com/project-slug: asher/testnametwo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "asher"
